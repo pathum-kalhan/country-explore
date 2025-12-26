@@ -7,7 +7,9 @@
             <span class="text-2xl mr-2">🌎</span>
             <span class="text-xl font-bold">Country Explorer</span>
           </NuxtLink>
-          <NuxtLink to="/about" class="text-white hover:text-indigo-200">About Page</NuxtLink>
+          <NuxtLink to="/about" class="text-white hover:text-indigo-200"
+            >About Page</NuxtLink
+          >
         </div>
       </div>
     </nav>

@@ -12,5 +12,11 @@ export default defineNuxtConfig({
       countryAPI: process.env.API_KEY_COUNTRY_API,
     },
   },
-  modules: ["@nuxt/test-utils/module"],
+  modules: ["@nuxt/test-utils/module","@nuxt/image"],
+  image: {
+    format: ['webp'],
+     domains: ['fastly.picsum.photos'],
+     provider:"ipx",
+  },
+   
 });
